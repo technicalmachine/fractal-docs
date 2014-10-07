@@ -23,3 +23,7 @@ By automatically providing the framework for monitoring messages between the com
 
 ## How Does Fractal Work?
 
+Fractal breaks module subsystems into Components. Each Component can define a set of actions which it exposes to other components. In this way, bindings can be created automatically and each component is sandboxed into its own language and requirements.
+
+Please read more about Components [here](https://docs.google.com/document/d/1QyKLxJx8jeOsswFgsxrbwtxuU1_REGMliJOWIkz5GB0/edit#) and please do leave comments.
+
