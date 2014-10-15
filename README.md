@@ -15,7 +15,6 @@ These competing goals often make it difficult to transition from a rough prototy
 * **Breaking functional firmware blocks into separate `Components` for maximum encapsulation and re-use in different designs.**
 * **Distrubuting these `Components` with a simple package manager.**
 * **Allowing `Components` to be written in different languages with compile-time generated bindings to other `Components`.**
-* ****
 
 ### What are the practical benefits of Fractal? 
 ===================================================================
@@ -41,7 +40,7 @@ We would like to use the metadata of a program to suggest alternate parts that m
 There are several elements in the Fractal design:
 
 * **Fractal Files** - YAML files that define the interface of each `Component` and include code that executes when those interfaces are accessed.
-* **Interface Compiler** - The compiler that creates the bindings between different `Component`'s and compiles the `Component`'s code for whichever target (Cortex M3, Cortex M0, POSIX, etc) is being used.
+* **Interface Compiler** - The compiler that creates the bindings between different `Component`s and compiles the `Component`'s code for whichever target (Cortex M3, Cortex M0, POSIX, etc) is being used.
 * **SignalSpec** - An optional, new language for concisely defining the transformation of data in two directions. Used primarily for sending and receiving data over a communication bus.
 
 ### Fractal Files
@@ -50,7 +49,7 @@ Each component is defined in a YAML file where each of the available actions is 
 
 Here is an example of a Fractal SPI controller on an LPC18xx microcontroller written in C. You'll notice that each element in its interface is an `action` and C code is written for each of the standard `Component` functions (`to_begin`, `to_end`, `configure`, etc.) as described in the [`Component` documentation](component.md).
 
-```
+```yaml
 ---
 // Name of the component
 component: spi-lpc18xx
