@@ -17,7 +17,6 @@ These competing goals often make it difficult to transition from a rough prototy
 * **Allowing `Components` to be written in different languages with compile-time generated bindings to other `Components`.**
 
 ### What are the practical benefits of Fractal? 
-===================================================================
 
 #### Focus on Domain Logic, Not Configuration
 
@@ -47,60 +46,7 @@ There are several elements in the Fractal design:
 
 Each component is defined in a YAML file where each of the available actions is outlined defined and implemented in a single language. You can see a more complete documentation of `Component` specifications are [here](components.md). 
 
-Here is an example of a Fractal SPI controller on an LPC18xx microcontroller written in C. You'll notice that each element in its interface is an `action` and C code is written for each of the standard `Component` functions (`to_begin`, `to_end`, `configure`, etc.) as described in the [`Component` documentation](component.md).
-
-```yaml
----
-// Name of the component
-component: spi-lpc18xx
-// The language it's implemented in
-backend: c
-// ?
-struct: spi_state
-
-// The functions to be called when ....
-begin: begin()
-end: end()
-
-// SPI exposes a transaction function
-actions:
-  transaction:
-  // The incoming arguments
-    args_in:
-    // Clock speed (an integer)
-      clock_speed:
-        type: int
-        // When this function starts, run the configure function once to set the SPI clock speed
-        configure: self->SPI->CDIV = calculate_clock(clock_speed)
-    // The SPI mode (an integer)
-      mode:
-        type: int
-        configure: self->SPI->MODE = mode
-
-    // When the action begins, call this func
-    begin: |
-      cs_low(self);
-    // When the action ends, call this func
-    end: |
-      cs_high(self);
-
-    // A subaction of transaction could be transfer
-    actions:
-      transfer:
-        // The arg in is a single byte
-        args_in:
-          mo: byte
-        // It reutrns a single byte
-        args_out:
-          mi: byte
-
-        // When this sub action begins, write the data byte into an outbound data reg
-        on_begin: |
-          self->spi->DATA = mo;
-    
-        // When it ends, call this func
-        to_end: transfer_end
-```
+[Here is an example of a Fractal SPI controller](examples/spi.yaml) on an LPC18xx microcontroller written in C. You'll notice that each element in its interface is an `action` and C code is written for each of the standard `Component` functions (`to_begin`, `to_end`, `configure`, etc.) as described in the [`Component` documentation](component.md).
 
 This file will let us define the same interface for all SPI peripherals (a single `transaction`) across different microcontroller families. The only thing that has to change is the actual C implementation of which registers are called.
 
@@ -123,7 +69,6 @@ lpc18xx :
 Building on top of these abstractions can be easily imagined as literally stacking these `Components`. This is what building a JavaScript-based temperature driver on top of the i2c driver could look like:
 
 [ tap-detector.c ]  
-
 
 [ accelerometer.js ] 
 

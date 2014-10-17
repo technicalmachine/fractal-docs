@@ -1,0 +1,75 @@
+---
+# Name of the component
+component: spi-lpc18xx
+# The language it's programmed in
+backend: c
+# ???
+struct: spi_state
+
+### Where are these functions defined?
+begin: begin()
+end: end()
+
+# Arguments in to the construction this component
+args_in:
+  # The pointer to what? The base SPI peripheral
+  base: ptr
+  # The chip select pin
+  cs:
+    # Potential actions of the CS pin?
+    actions:
+      # when low is called on cs
+      low:
+      # call the cs_low function (defined where?)
+        to_begin: cs_low
+      # call the cs_high function (defined where?)
+      high:
+        to_begin: cs_high
+  # The specific interrupt service routine to call 
+  isr:
+    # The action to be called on the ISR
+    actions:
+      # fire is the only action
+      fire:
+        # when it gets called, run this C code to end the transfer
+        on_begin: |
+          transfer_end(self, self->spi->DATA);
+
+# The primary action of this component
+actions:
+  # is a transaction
+  transaction:
+    # The arguments to this action
+    args_in:
+      # are clockspeed (an integer)
+      # run configure only once with argument when action is called
+      clock_speed:
+        type: int
+        configure: self->SPI->CDIV = calculate_clock(clock_speed)
+      # and mode (an integer)
+      # run configure to set the SPI mode
+      mode:
+        type: int
+        configure: self->SPI->MODE = mode
+    # When this action is first called, run begin to pull cs low
+    # when it finishes, call cs high
+    begin: |
+      cs_low(self);
+    end: |
+      cs_high(self);
+
+    # Subactions of transaction
+    actions:
+      # transfer a single byte
+      transfer:
+        # the only argument in is a single byte
+        args_in:
+          mo: byte
+        # the argument out is a single byte
+        args_out:
+          mi: byte
+        # When this sub action is called, set the data register with the incoming byte
+        # When this sub action completes, call transfer_end
+        on_begin: |
+          self->spi->DATA = mo;
+        to_end: transfer_end
