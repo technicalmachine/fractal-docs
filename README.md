@@ -19,7 +19,7 @@ In the manufacturing phase, the priority is *cost*. The goal is to figure out th
 These competing goals often make it difficult to transition from a rough prototype to a scalable product without starting from scratch, with both software and hardware, at different stages. The goal of Fractal is to eliminate those rewrites while still preserving the benefit of using the best tool for each phase.
 
 
-### The Software Benefits of Tessel
+### The Software Benefits of Fractal
 
 #### Focus on Domain Logic, Not Configuration
 
@@ -45,46 +45,8 @@ If the parts data, extracted from the firmware files, are known, generating part
 Once gerber files (exported from the PCB design) are available, Fractal will search for the best of known PCB manufacturers and assembly houses to find the best candidate for the job. This is currently a very hands-on, relationship-based process but we'd like to eventually automate it (much like travel agents have been made largely obselete). This is very, very far off.
 
 
-### So how does this complex, naive, never-gonna-work project actually do those things?
+### How will it work?
 
-As described above, the power of Fractal is derived from correlating specific code blocks with specific hardware chips.
+To read more about the architecture of the framework and how it works, continue reading about the [software design](software-design.md) and how it will interoperate with the [hardware design](hardware-design.md) of our prototyping tools. 
 
-There are several elements in Fractal's software development design:
 
-* **Fractal Files** - YAML files that define the interface of each `Component` and include code that executes when those interfaces are accessed.
-* **Interface Compiler** - The compiler that creates the bindings between different `Component`s and compiles the `Component`'s code for whichever target (Cortex M3, Cortex M0, POSIX, etc) is being used.
-* **SignalSpec** - An optional, new language for concisely defining the transformation of data in two directions. Used primarily for sending and receiving data over a communication bus.
-
-### Fractal Files
-
-Each component is defined in a YAML file where each of the available actions is outlined defined and implemented in a single language. You can see a more complete documentation of `Component` specifications are [here](components.md). 
-
-[Here is an example of a Fractal SPI controller](examples/spi.yaml) on an LPC18xx microcontroller written in C. You'll notice that each element in its interface is an `action` and C code is written for each of the standard `Component` functions (`to_begin`, `to_end`, `configure`, etc.) as described in the [`Component` documentation](component.md).
-
-This file will let us define the same interface for all SPI peripherals (a single `transaction`) across different microcontroller families. The only thing that has to change is the actual C implementation of which registers are called.
-
-### Interface Compiler (this is where diagrams would be extra helpful)
-
-By associating a series of these fractal files, you could make up an entire microcontroller:
-
-```
-lpc18xx :
-
-- spi-lpc18xx.fractal
-- i2c-lpc18xx.fractal
-- uart-lpc18xx.fractal
-- spifi-lpc18xx.fractal
-- sct-lpc18xx.fractal
-- dma-lpc18xx.fractal
-- gpio-lpc18xx.fractal
-```
-
-Building on top of these abstractions can be easily imagined as literally stacking these `Components`. This is what building a JavaScript-based temperature driver on top of the i2c driver could look like:
-
-[ tap-detector.c ]  
-
-[ accelerometer.js ] 
-
-[ i2c-lpc18xx.fractal]  
-
-In this case, the generic accelerometer driver or the tap detector could be placed on top of any microcontroller with an I2C interface an **no code would have to be changed.** Additionally, the language each of the `Components` are implemented is inconsequantial because a standard, non-dynamic interface is exposed by each of them.
