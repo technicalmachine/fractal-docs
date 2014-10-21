@@ -4,9 +4,9 @@
 
 ###What is Fractal?
 
-At the heart of **Fractal** is the idea that you can build a better product if the software and hardware are well integrated. **Fractal is a framework that uses the "metadata" of hardware and software designs to help inform the system architecture as whole**. By surfacing relevant resource consumption levels such as memory consumption, CPU utilization, and integrated circuit prices, the process to scaling down a hardware device becomes easier, more transparent, and shared amongst a team. 
+At the heart of **Fractal** is the idea that you can build a better product if the software and hardware are well integrated. **Fractal is a framework that uses the "metadata" of hardware and software designs to help inform the system architecture as whole**. Fractal offers an improved development experience that allows developers to use different languages within a project, have boiler plate configuration code generated automatically, receive hardware part suggestions, and even automate schematic and PCB generation. 
 
-For many embedded products, the *domain logic* and the final *Printed Circuit Board* are the primary deliverables of the electrical design process. **Fractal** aims to (eventually) fully automate, or at least help guide, any parts of the process that are not directly relevant to those deliverables such as writing bootup and part-specific drivers, picking parts and sources, and modeling parts and schematics. We value ownership over black boxes so we'd like ensure those intermediary steps are fully transparent and optimizable. Put ambitiously, we'd like to be able to generate a PCB from firmware. 
+For many embedded products, the *domain logic* and the combination of the different integrated circuits are the primary deliverables of the electrical design process. **Fractal** aims to (eventually) fully automate, or at least help guide, any parts of the process that are not directly relevant to those deliverables. We value transparency over black boxes so we'd like ensure those intermediary steps are fully editable. Put ambitiously, we'd like to be able to generate a PCB from heavily-optimized firmware. 
 
 ### The Process to from Hardware Prototype to Scale
 
