@@ -10,7 +10,7 @@ Fractal's "EDA" output (schematics and layout files) can, from a seasoned EE's p
 
 A prototypical system would include a microcontroller, radio, power supply, and sensor.
 
-By offering a few pre-canned options for each functional block that can be interchanged (at least "on paper"), Fractal would immediately give the design team a working system, albeit one not tuned for the specific application. Different radios (and/or microcontrollers, depending on what the initial system design/spec specifies) could be swapped out in a matter of minutes, not days, thanks to the layers of software abstraction Fractal provides.
+By offering a few pre-canned options for each functional block that can be interchanged (at least in theory), Fractal would immediately give the design team a working system, albeit one not tuned for the specific application. Different radios (and/or microcontrollers, depending on what the initial system design/spec specifies) could be swapped out in a matter of minutes, not days, thanks to the layers of software abstraction Fractal provides.
 
 A different sensor (more precise, different range, different output type, etc.) within the Fractal ecosystem, or even something built in-house using provided templates, could be swapped out in a similar manner (and then added to the master Fractal library at the user's discretion, in the case of the in-house option).
 
@@ -40,11 +40,11 @@ As stated earlier, the specifics are TBD here, but the gist is as follows:
 
 * The vast majority of simple sensors and actuators can be controlled over one or two of SPI, I2C, UART, and GPIO
 * The vast majority of systems currently within the scope of Fractal have at most 2,3 "subsystems" related to these devices
-* Tessel's module interface (which includes all of the interfaces listed above and can be used as a proxy/analog for what is feasible with Fractal) has thus far been sufficient for pretty much anything we wanted to put into a module form factor. It is, however, through hole and clunky: COTS plasitcs are large, expensive, and ill-suited to deployment.
+* Tessel's module interface (which includes all of the interfaces listed above and can be used as a proxy/analog for what is feasible with Fractal) has thus far been sufficient for pretty much anything we wanted to put into a module form factor. It is, however, through hole and clunky: through-hole COTS plastics are large, expensive to purchase and install (vs. no connectors or SMT connectors), and therefore ill-suited to deployment.
 
 Combined, this suggests that a common form factor of some kind, or perhaps one for each of the interfaces listed above, is well within the realm of possibility. In keeping with the multiple but standard sizes of Tessel module (and geometric undertones of all our names), some experimentation with form factors is in order.
 
-Also of note: some consideration of IC manufacturers/specific microcontroller families is likely in order here. Atmel, TI, Freescale, and NXP all do their peripherals a little differently.
+Also of note: some consideration of IC manufacturers/specific microcontroller families is in order here. Atmel, TI, Freescale, and NXP all do their peripherals a little differently, so the interface we use must allow for flexibility in selecting a microcontroller, lest we inadvertantly lock ourselves into one manufacturer/family.
 
 ### Power
 
@@ -72,3 +72,6 @@ As discussed above, it may make sense to combine processor and power plant. The 
 
 The logical extension, given that logistics > plastic > silicon (in terms of cost), is whether the processor and power plant should be built into the substrate board or placed on their own "modules".
 
+### Hardware design team's interaction with Technical Machine
+
+What is our role in this once the tool is out there and useful? How do we interact with customers and why do they interact with us? Do we serve as a conduit somewhere, and if so, how? etc.
