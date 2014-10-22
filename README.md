@@ -29,11 +29,11 @@ Most of the code in an embedded system deals with IO, both with sensors and actu
 
 #### Use The Right Language For The Job
 
-**Multiple programming languages can be mixed and matched, so developers can pick the right language for each task** -- Rust and C for size and speed, JS or Lua for familiarity, ease of prototyping, and existing network libraries, and Signalspec for easy definition of protocol state machines. Prototype devices can run *Components* of the design in higher level languages on a PC, transparently using hardware on the device. Similarly, **hardware components may be replaced by software simulation** for prototyping or testing.
+**Multiple programming languages can be mixed and matched, so developers can pick the right language for each task** -- [Rust](http://www.rust-lang.org/) and C for size and speed, JS or Lua for familiarity, ease of prototyping, and existing network libraries, and [Signalspec](http://signalspec.org) for easy definition of protocol state machines. Prototype devices can run *Components* of the design in higher level languages on a PC, transparently using hardware on the device. Similarly, **hardware components may be replaced by software simulation** for prototyping or testing.
 
 #### Debug Systems Painlessly
 
-By automatically providing the framework for monitoring messages between the *Components*, we can provide **an unprecedented level of introspection for debugging to bring an experience like modern browsers' "Web Inspector" panel to embedded development**. A hierarchical timeline could show event timing, CPU consumption, and the data involved at each level of abstraction which could also help pare down hardware capabilities when picking cheaper components.
+By automatically providing the framework for monitoring messages between the *Components*, we can **bring an experience like modern browsers' "Web Inspector" panel to embedded development**. A hierarchical timeline could show event timing, CPU consumption, and the data involved at each level of abstraction which could also help pare down hardware capabilities when picking cheaper components.
 
 ### The Hardware Benefits of Fractal
 
@@ -41,10 +41,10 @@ By automatically providing the framework for monitoring messages between the *Co
 We would like to use the metadata of a program to suggest alternate parts that may be cheaper, easier to source, or more efficient than what's currently in use. 
 
 #### Schematic and PCB Generation
-If the parts data, extracted from the firmware files, are known, generating part models, schematics, and PCBs becomes an extremely complicated problem of datasheet parsing.
+In addition to firmware drivers, Fractal components can bundle part parametrics extracted from datasheets, 3D models, reference schematics, and PCB layouts.
 
 #### Manufacturing
-Once gerber files (exported from the PCB design) are available, Fractal will search for the best of known PCB manufacturers and assembly houses to find the best candidate for the job. This is currently a very hands-on, relationship-based process but we'd like to eventually automate it (much like travel agents have been made largely obselete). This is very, very far off.
+Once Gerber files (exported from the PCB design) are available, Fractal will search for the best of known PCB manufacturers and assembly houses to find the best candidate for the job. This is currently a very hands-on, relationship-based process but we'd like to eventually automate it (much like travel agents have been made largely obselete). This is very, very far off.
 
 
 ### So how does this complex, naive, never-gonna-work project actually do those things?
@@ -89,4 +89,4 @@ Building on top of these abstractions can be easily imagined as literally stacki
 
 [ i2c-lpc18xx.fractal]  
 
-In this case, the generic accelerometer driver or the tap detector could be placed on top of any microcontroller with an I2C interface an **no code would have to be changed.** Additionally, the language each of the `Components` are implemented is inconsequantial because a standard, non-dynamic interface is exposed by each of them.
+In this case, the generic accelerometer driver or the tap detector could be placed on top of any microcontroller with an I2C interface an **no code would have to be changed.** Additionally, the language each of the `Components` are implemented is inconsequential because a standard, statically-checked interface is exposed by each of them.
