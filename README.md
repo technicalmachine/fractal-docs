@@ -4,17 +4,11 @@
 
 ###What is Fractal?
 
-<<<<<<< HEAD
-At the heart of **Fractal** is the idea that you can build a better product if the software and hardware are well integrated. **Fractal is a framework that uses the "metadata" of hardware and software designs to help inform the system architecture as whole**. Fractal offers an improved development experience that allows developers to use different languages within a project, have boiler plate configuration code generated automatically, receive hardware part suggestions, and even automate schematic and PCB generation. 
-
-For many embedded products, the *domain logic* and the combination of the different integrated circuits are the primary deliverables of the electrical design process. **Fractal** aims to (eventually) fully automate, or at least help guide, any parts of the process that are not directly relevant to those deliverables. We value transparency over black boxes so we'd like ensure those intermediary steps are fully editable. Put ambitiously, we'd like to be able to generate a PCB from heavily-optimized firmware. 
-=======
 Fractal helps you prototype a hardware device and its firmware, then iterate towards a design that can be produced at scale. It integrates software and hardware together into reusable components, so you can focus on the novel aspects of your design, and leverage shared building blocks for the generic pieces like drivers, reference designs, and part footprints.
 
 Start prototyping by assembling modules with our development boards, and you can read sensor data and control actuators before writing any code. Prototype your device's behavior in your favorite high-level language, but easily drop into lower-level code where you need to be closer to the hardware. Debug with unprecedented introspection into the interaction between components in the system.
 
 As you move toward production, optimize your design with transparency into microcontroller resource consumption, parts costs, and sources. Combine reference schematics and layouts to move from development boards to your own hardware.
->>>>>>> 8d409d973193a50ac3a593b1088927a87c6c9a60
 
 ### The Process to from Hardware Prototype to Scale
 
