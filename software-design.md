@@ -38,4 +38,4 @@ Building on top of these abstractions can be easily imagined as literally stacki
 
 [ i2c-lpc18xx.fractal]  
 
-In this case, the generic accelerometer driver or the tap detector could be placed on top of any microcontroller with an I2C interface an **no code would have to be changed.** Additionally, the language each of the `Components` are implemented is inconsequantial because a standard, non-dynamic interface is exposed by each of them.
+In this case, the generic accelerometer driver or the tap detector could be placed on top of any microcontroller with an I2C interface an **no code would have to be changed.** Additionally, the language each of the `Components` are implemented is inconsequential because a standard, statically-checked interface is exposed by each of them.
