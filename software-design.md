@@ -12,6 +12,13 @@ These languages can be mixed and matched to use the best tool for each part of t
 
 The **Interface Compiler** compiles each of the Components and generates binding glue code to connect them. It then adds lightweight runtime support code and links an executable for whichever target (Cortex M3, Cortex M0, Embedded Linux, etc.) is being used.
 
+## Design goals
+
+ * Do whatever you can at compile time (error checking, resource allocation, and optimization)
+ * Features you don't use should have zero runtime cost
+ * Scale from Cortex M0 to Core i7
+ * Re-use familiar technologies
+
 ## Component Actions
 
 A Component's interface is defined by **actions**, which combine object-oriented methods and events with a state machine. Data is passed into the component when an action begins, and passed out of the Component when the action ends. Unlike methods in OOP, the beginning and end are explicit, separate occurrences, and the time between between entry and exit represents a **state** of the state machine.
