@@ -4,6 +4,12 @@
 
 Initially, Fractal will target what we're loosely calling "industrial" applications and small distributed sensor systems (classical IoT problems), as opposed to "consumer" applications. In essence, this frees us from worrying about the specifics of the final form factor and eliminates industrial design, plastics, and ergonomics/human factors from the equation.
 
+## "Design" vs. "generate"
+
+Fractal aims to abstract away the tedious bits of the hardware design process. As such, perhaps "generation" is a better word here.
+
+In a typical workflow, the user would specify the high-level domain logic of the system being designed and Fractal will generate not only the hardware that's appropriate for the task (a tiny, low-power microcontroller and radio for a wireless sensor vs. something capable of running a fast control loop for an actuator), but also help draw and generate interface code for the corresponding physical divisions within the system. For example, the tool might decide that the fusion of data streams collected on a single wireless probe should happen on the recieving side, and would generate a hardware design that is conducive to this system architecture.
+
 ##  Implementation
 
 Much of this is still up in the air, but we've learned a lot from our work on [Tessel](www.tessel.io).
