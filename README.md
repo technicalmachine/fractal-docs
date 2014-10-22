@@ -4,9 +4,11 @@
 
 ###What is Fractal?
 
-At the heart of **Fractal** is the idea that you can build a better product if the software and hardware are well integrated. **Fractal is a framework that uses the "metadata" of hardware and software designs to help inform the system architecture as whole**. By surfacing relevant resource consumption levels such as memory consumption, CPU utilization, and integrated circuit prices, the process to scaling down a hardware device becomes easier, more transparent, and shared amongst a team. 
+Fractal helps you prototype a hardware device and its firmware, then iterate towards a design that can be produced at scale. It breaks software and hardware into reusable components, so you can focus on the novel aspects of your design, and leverage shared building blocks for the "boring" pieces like drivers, reference designs, and part footprints in an integrated manner.
 
-For many embedded products, the *domain logic* and the final *Printed Circuit Board* are the primary deliverables of the electrical design process. **Fractal** aims to (eventually) fully automate, or at least help guide, any parts of the process that are not directly relevant to those deliverables such as writing bootup and part-specific drivers, picking parts and sources, and modeling parts and schematics. We value ownership over black boxes so we'd like ensure those intermediary steps are fully transparent and optimizable. Put ambitiously, we'd like to be able to generate a PCB from firmware. 
+Start prototyping by assembling modules with our development boards, and you can read sensor data and control actuators before writing any code. Prototype your device's behavior in your favorite high-level language, but easily drop into lower-level code where you need to be closer to the hardware. Debug with unprecedented introspection into the interaction between components in the system.
+
+As you move toward production, optimize your design with transparency into microcontroller resource consumption, parts costs, and sources. Combine reference schematics and layouts to move from development boards to your own hardware.
 
 ### The Process to from Hardware Prototype to Scale
 
