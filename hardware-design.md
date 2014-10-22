@@ -18,7 +18,9 @@ A different sensor (more precise, different range, different output type, etc.) 
 
 Fractal aims to abstract away the tedious bits of the hardware design process. As such, perhaps "generation" is a better word here.
 
-In a typical workflow, the user would specify the high-level domain logic of the system being designed and Fractal would generate not only hardware appropriate for the task (a tiny, low-power microcontroller and radio for a wireless sensor vs. something capable of running a fast control loop for an actuator), but also help draw and generate interface code for the resulting/corresponding physical divisions within the system. For example, the tool might decide that the fusion of data streams collected on a single wireless probe should happen on the recieving side, and would generate a hardware design that is conducive to this system architecture.
+In a typical workflow, the user would specify the high-level domain logic of the system being designed and Fractal would generate not only hardware appropriate for the task (a tiny, low-power microcontroller and radio for a wireless sensor vs. something capable of running a fast control loop for an actuator), but also help draw and generate interface code for the resulting/corresponding physical divisions within the system.
+
+For example, the tool might decide that the fusion of two measurements of barometirc pressure collected on a single wireless probe should happen on the reciever (rather than on the probe), and would generate hardware designs for the probe and recieving base station that are conducive to this system architecture.
 
 ##  Implementation
 
@@ -28,7 +30,7 @@ Much of this is still up in the air, but we've learned a lot from our work on [T
 
 Plaintext files, systematic net naming, and hierarchical schematic design makes the integration half of this relatively straightforward.
 
-A "preprocessor" would combine the sub-schematics into a "final" master design. Similarly, a common interface (TBD, but we like SMT QFN/LGAs more than the 1D, through-hole module interface Tessel uses right now) allows layout files, and even Gerbers, to be dropped into place as needed.
+A "preprocessor" would combine the sub-schematics into a "final" master design. Similarly, a common interface (TBD, but we like SMT QFN/LGAs more than the 1D, through-hole module interface Tessel uses right now for their ease of assembly, what they allow for in PCB routing, and low cost) allows layout files, and even Gerbers, to be dropped into place as needed.
 
 The layout manifestations of the `Components` need only resemble a physical QFN/LGA in that the interface is common across the `Components`; making the actual hardware available only in any given form factor would serve only to save *us* NRE costs and gains the end user nothing. In fact, we suspect that the desire for a "full-custom" PCB, as opposed to one that is all board on board, would justify the added cost for the end user.
 
