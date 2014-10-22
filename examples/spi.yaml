@@ -1,18 +1,18 @@
 ---
 # Name of the component
-component: spi-lpc18xx
+component: spi-e1800
 
 # Which language backend to use
 backend: c
 
 # External .c source files to build
 sources:
-  - lpc18xx_spi.c
+  - example_spi.c
 
 # .h headers to include
 headers:
-  - lpc18xx.h
-  - lpc18xx_spi_priv.h
+  - e1800.h
+  - e1800_spi_priv.h
 
 
 # The C struct declared in a header file used for the state of this component. It is passed as `self`
