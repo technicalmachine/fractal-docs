@@ -26,7 +26,7 @@ Much of this is still up in the air, but we've learned a lot from our work on [T
 
 ### Design files
 
-Plaintext files, systematic net naming, and hierarchical schematic design makes the integration half of this relatively straightforward.
+Plaintext files, systematic net naming, and hierarchical schematic design makes the integration half of this relatively straightforward. We're using KiCAD for its OSS + OSHW credentials, but have not yet built out anything specific to the tool.
 
 A "preprocessor" would combine the sub-schematics into a "final" master design. Similarly, a common interface (TBD, but we like SMT QFN/LGAs more than the 1D, through-hole module interface Tessel uses right now for their ease of assembly, what they allow for in PCB routing, and low cost) allows layout files, and even Gerbers, to be dropped into place as needed.
 
