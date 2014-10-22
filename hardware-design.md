@@ -56,7 +56,7 @@ At the risk of overgeneralizing, there are three buckets:
 
 The only reason I draw a distinction between the second and third categories is that primary cells + field service might make sense in some applications.
 
-In all cases, after the initial "acquisition" is completed, most of the devices Fractal is well suited to will have a low power domain and may or may not have a high power domain. There exist many, many regulators (some of which are even pin-compatible) across input voltages, output voltages, and manufacturers that can allow the system to be tuned to fit any requirements imposed by the environment.
+Most of the devices Fractal is well suited to will have a low voltage domain (1.8V, 3.3V, 5V, etc.) and may or may not have an application-specific higher voltage domain (i.e. RS-232, high voltage motor control, some connection/control of line voltage, etc.). There exist many, many regulators (some of which are even pin-compatible) across input voltages, output voltages, and manufacturers that can allow the system to be tuned to fit any requirements imposed by the application.
 
 ## Open questions
 
