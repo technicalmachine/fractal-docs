@@ -1,6 +1,11 @@
 # Fractal
 
-**Note**: Fractal is still under development and, while our goals and problem areas are well established, our methodology has room to change. Feedback is very welcome! team@technical.io. 
+**Note**: Fractal is still under development and, while our goals and problem areas are well established, our methodology has room to change. Feedback is very welcome! team@technical.io.
+
+###Outline:
+* [**Fractal Description and Goals**](README.md)
+* [**Software Design**](software-design.md)
+* [**Hardware Design**](hardware-design.md)
 
 ###What is Fractal?
 
