@@ -4,13 +4,13 @@
 
 Initially, Fractal will target what we're loosely calling "industrial" applications and small distributed sensor systems (classical IoT problems), as opposed to "consumer" applications. In essence, this frees us from worrying about the specifics of the final form factor and eliminates industrial design, plastics, and ergonomics/human factors from the equation.
 
-Fractal's "EDA" output (schematics and layout files) can, from a seasoned EE's perspective, be seen as something that is good enough to deploy at scale, but not that something that considers the aforementioned requirements of consumer electronics.
+Fractal's "EDA" output (schematics and layout files) can, from a seasoned EE's perspective, be seen as something that is good enough to deploy at scale, but not as something that considers the aforementioned requirements of consumer electronics.
 
 ## Prototypical example as a reference
 
 A prototypical system would include a microcontroller, radio, power supply, and sensor.
 
-By offering a few pre-canned options for each functional block that can be interchanged (at least in theory), Fractal would immediately give the design team a working system, albeit one not tuned for the specific application. Different radios (and/or microcontrollers, depending on what the initial system design/spec specifies) could be swapped out in a matter of minutes, not days, thanks to the layers of software abstraction Fractal provides.
+By offering a few pre-canned, interchangeable options for each functional block, Fractal would immediately give the design team a working system, albeit one not tuned for the specific application. Different radios (and/or microcontrollers, depending on what the initial system design/spec specifies) could be swapped out in a matter of minutes, not days, thanks to the layers of software abstraction Fractal provides.
 
 A different sensor (more precise, different range, different output type, etc.) within the Fractal ecosystem, or even something built in-house using provided templates, could be swapped out in a similar manner (and then added to the master Fractal library at the user's discretion, in the case of the in-house option).
 
