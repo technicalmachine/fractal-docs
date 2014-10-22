@@ -4,7 +4,7 @@
 
 Initially, Fractal will target what we're loosely calling "industrial" applications and small distributed sensor systems (classical IoT problems), as opposed to "consumer" applications. In essence, this frees us from worrying about the specifics of the final form factor and eliminates industrial design, plastics, and ergonomics/human factors from the equation.
 
-Fractal's output can, from a seasoned EE's perspective, be seen as something that is good enough to deploy at scale, but not that something that considers the aforementioned requirements of consumer electronics. The final product will, especially at first, very much resemble its origins as a handful of interconnected blocks.
+Fractal's "EDA" output (schematics and layout files) can, from a seasoned EE's perspective, be seen as something that is good enough to deploy at scale, but not that something that considers the aforementioned requirements of consumer electronics. The final product will, especially at first, very much resemble its origins as a handful of interconnected blocks.
 
 ## Prototypical example as a reference
 
@@ -18,7 +18,7 @@ A different sensor (more precise, different range, different output type, etc.) 
 
 Fractal aims to abstract away the tedious bits of the hardware design process. As such, perhaps "generation" is a better word here.
 
-In a typical workflow, the user would specify the high-level domain logic of the system being designed and Fractal would generate not only the hardware that's appropriate for the task (a tiny, low-power microcontroller and radio for a wireless sensor vs. something capable of running a fast control loop for an actuator), but also help draw and generate interface code for the corresponding physical divisions within the system. For example, the tool might decide that the fusion of data streams collected on a single wireless probe should happen on the recieving side, and would generate a hardware design that is conducive to this system architecture.
+In a typical workflow, the user would specify the high-level domain logic of the system being designed and Fractal would generate not only hardware appropriate for the task (a tiny, low-power microcontroller and radio for a wireless sensor vs. something capable of running a fast control loop for an actuator), but also help draw and generate interface code for the resulting/corresponding physical divisions within the system. For example, the tool might decide that the fusion of data streams collected on a single wireless probe should happen on the recieving side, and would generate a hardware design that is conducive to this system architecture.
 
 ##  Implementation
 
