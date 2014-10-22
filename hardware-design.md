@@ -4,7 +4,7 @@
 
 Initially, Fractal will target what we're loosely calling "industrial" applications and small distributed sensor systems (classical IoT problems), as opposed to "consumer" applications. In essence, this frees us from worrying about the specifics of the final form factor and eliminates industrial design, plastics, and ergonomics/human factors from the equation.
 
-Fractal's "EDA" output (schematics and layout files) can, from a seasoned EE's perspective, be seen as something that is good enough to deploy at scale, but not that something that considers the aforementioned requirements of consumer electronics. The final product will, especially at first, very much resemble its origins as a handful of interconnected blocks.
+Fractal's "EDA" output (schematics and layout files) can, from a seasoned EE's perspective, be seen as something that is good enough to deploy at scale, but not that something that considers the aforementioned requirements of consumer electronics.
 
 ## Prototypical example as a reference
 
@@ -19,8 +19,6 @@ A different sensor (more precise, different range, different output type, etc.) 
 Fractal aims to abstract away the tedious bits of the hardware design process. As such, perhaps "generation" is a better word here.
 
 In a typical workflow, the user would specify the high-level domain logic of the system being designed and Fractal would generate not only hardware appropriate for the task (a tiny, low-power microcontroller and radio for a wireless sensor vs. something capable of running a fast control loop for an actuator), but also help draw and generate interface code for the resulting/corresponding physical divisions within the system.
-
-For example, the tool might decide that the fusion of two measurements of barometirc pressure collected on a single wireless probe should happen on the reciever (rather than on the probe), and would generate hardware designs for the probe and recieving base station that are conducive to this system architecture.
 
 ##  Implementation
 
@@ -56,7 +54,7 @@ At the risk of overgeneralizing, there are three buckets:
  * A rechargable battery that lasts hours to weeks
  * A non-rechargable battery that lasts months to years
 
-The only reason I draw a distinction between the second and third categories is that primary cells + field service might make sense in some cases for the third category.
+The only reason I draw a distinction between the second and third categories is that primary cells + field service might make sense in some applications.
 
 In all cases, after the initial "acquisition" is completed, most of the devices Fractal is well suited to will have a low power domain and may or may not have a high power domain. There exist many, many regulators (some of which are even pin-compatible) across input voltages, output voltages, and manufacturers that can allow the system to be tuned to fit the any requirements imposed by the environment.
 
