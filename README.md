@@ -4,9 +4,11 @@
 
 ###What is Fractal?
 
-At the heart of **Fractal** is the idea that you can build a better product if the software and hardware are well integrated. **Fractal is a framework that uses the "metadata" of hardware and software designs to help inform the system architecture as whole**. By surfacing relevant resource consumption levels such as memory consumption, CPU utilization, and integrated circuit prices, the process to scaling down a hardware device becomes easier, more transparent, and shared amongst a team. 
+Fractal helps you prototype a hardware device and its firmware, then iterate towards a design that can be produced at scale. It integrates software and hardware together into reusable components, so you can focus on the novel aspects of your design, and leverage shared building blocks for the generic pieces like drivers, reference designs, and part footprints.
 
-For many embedded products, the *domain logic* and the final *Printed Circuit Board* are the primary deliverables of the electrical design process. **Fractal** aims to (eventually) fully automate, or at least help guide, any parts of the process that are not directly relevant to those deliverables such as writing bootup and part-specific drivers, picking parts and sources, and modeling parts and schematics. We value ownership over black boxes so we'd like ensure those intermediary steps are fully transparent and optimizable. Put ambitiously, we'd like to be able to generate a PCB from firmware. 
+Start prototyping by assembling modules with our development boards, and you can read sensor data and control actuators before writing any code. Prototype your device's behavior in your favorite high-level language, but easily drop into lower-level code where you need to be closer to the hardware. Debug with unprecedented introspection into the interaction between components in the system.
+
+As you move toward production, optimize your design with transparency into microcontroller resource consumption, parts costs, and sources. Combine reference schematics and layouts to move from development boards to your own hardware.
 
 ### The Process to from Hardware Prototype to Scale
 
@@ -27,11 +29,11 @@ Most of the code in an embedded system deals with IO, both with sensors and actu
 
 #### Use The Right Language For The Job
 
-**Multiple programming languages can be mixed and matched, so developers can pick the right language for each task** -- Rust and C for size and speed, JS or Lua for familiarity, ease of prototyping, and existing network libraries, and Signalspec for easy definition of protocol state machines. Prototype devices can run *Components* of the design in higher level languages on a PC, transparently using hardware on the device. Similarly, **hardware components may be replaced by software simulation** for prototyping or testing.
+**Multiple programming languages can be mixed and matched, so developers can pick the right language for each task** -- [Rust](http://www.rust-lang.org/) and C for size and speed, JS or Lua for familiarity, ease of prototyping, and existing network libraries, and [Signalspec](http://signalspec.org) for easy definition of protocol state machines. Prototype devices can run *Components* of the design in higher level languages on a PC, transparently using hardware on the device. Similarly, **hardware components may be replaced by software simulation** for prototyping or testing.
 
 #### Debug Systems Painlessly
 
-By automatically providing the framework for monitoring messages between the *Components*, we can provide **an unprecedented level of introspection for debugging to bring an experience like modern browsers' "Web Inspector" panel to embedded development**. A hierarchical timeline could show event timing, CPU consumption, and the data involved at each level of abstraction which could also help pare down hardware capabilities when picking cheaper components.
+By automatically providing the framework for monitoring messages between the *Components*, we can **bring an experience like modern browsers' "Web Inspector" panel to embedded development**. A hierarchical timeline could show event timing, CPU consumption, and the data involved at each level of abstraction which could also help pare down hardware capabilities when picking cheaper components.
 
 ### The Hardware Benefits of Fractal
 
@@ -39,10 +41,10 @@ By automatically providing the framework for monitoring messages between the *Co
 We would like to use the metadata of a program to suggest alternate parts that may be cheaper, easier to source, or more efficient than what's currently in use. 
 
 #### Schematic and PCB Generation
-If the parts data, extracted from the firmware files, are known, generating part models, schematics, and PCBs becomes an extremely complicated problem of datasheet parsing.
+In addition to firmware drivers, Fractal components can bundle part parametrics extracted from datasheets, 3D models, reference schematics, and PCB layouts.
 
 #### Manufacturing
-Once gerber files (exported from the PCB design) are available, Fractal will search for the best of known PCB manufacturers and assembly houses to find the best candidate for the job. This is currently a very hands-on, relationship-based process but we'd like to eventually automate it (much like travel agents have been made largely obselete). This is very, very far off.
+Once Gerber files (exported from the PCB design) are available, Fractal will search for the best of known PCB manufacturers and assembly houses to find the best candidate for the job. This is currently a very hands-on, relationship-based process but we'd like to eventually automate it (much like travel agents have been made largely obselete). This is very, very far off.
 
 
 ### So how does this complex, naive, never-gonna-work project actually do those things?
@@ -87,4 +89,4 @@ Building on top of these abstractions can be easily imagined as literally stacki
 
 [ i2c-lpc18xx.fractal]  
 
-In this case, the generic accelerometer driver or the tap detector could be placed on top of any microcontroller with an I2C interface an **no code would have to be changed.** Additionally, the language each of the `Components` are implemented is inconsequantial because a standard, non-dynamic interface is exposed by each of them.
+In this case, the generic accelerometer driver or the tap detector could be placed on top of any microcontroller with an I2C interface an **no code would have to be changed.** Additionally, the language each of the `Components` are implemented is inconsequential because a standard, statically-checked interface is exposed by each of them.
