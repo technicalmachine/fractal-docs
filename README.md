@@ -4,7 +4,7 @@
 
 ###What is Fractal?
 
-Fractal helps you prototype a hardware device and its firmware, then iterate towards a design that can be produced at scale. It breaks software and hardware into reusable components, so you can focus on the novel aspects of your design, and leverage shared building blocks for the "boring" pieces like drivers, reference designs, and part footprints in an integrated manner.
+Fractal helps you prototype a hardware device and its firmware, then iterate towards a design that can be produced at scale. It integrates software and hardware together into reusable components, so you can focus on the novel aspects of your design, and leverage shared building blocks for the generic pieces like drivers, reference designs, and part footprints.
 
 Start prototyping by assembling modules with our development boards, and you can read sensor data and control actuators before writing any code. Prototype your device's behavior in your favorite high-level language, but easily drop into lower-level code where you need to be closer to the hardware. Debug with unprecedented introspection into the interaction between components in the system.
 
