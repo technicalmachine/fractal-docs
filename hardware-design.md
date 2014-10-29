@@ -44,14 +44,14 @@ As stated earlier, the specifics are TBD here, but the gist is as follows:
 
 Combined, this suggests that a common form factor of some kind, or perhaps one for each of the interfaces listed above, is well within the realm of possibility. In keeping with the multiple but standard sizes of Tessel module (and geometric undertones of all our names), some experimentation with form factors is in order.
 
-Also of note: some consideration of IC manufacturers/specific microcontroller families is in order here. Atmel, TI, Freescale, and NXP all do their peripherals a little differently, so the interface we use must allow for flexibility in selecting a microcontroller, lest we inadvertantly lock ourselves into one manufacturer/family.
+Also of note: some consideration of IC manufacturers/specific microcontroller families is in order here. Atmel, TI, Freescale, and NXP all do their peripherals a little differently, so the interface we use must allow for flexibility in selecting a microcontroller, lest we inadvertently lock ourselves into one manufacturer/family.
 
 ### Power
 
 At the risk of overgeneralizing, there are three buckets:
 
  * Grid power of some kind (be it line voltage, an AC adaptor, POE, or a shared power bus in a larger system)
- * A rechargable battery that lasts hours to weeks
+ * A rechargeable battery that lasts hours to weeks
  * A non-rechargable battery that lasts months to years
 
 The only reason I draw a distinction between the second and third categories is that primary cells + field service might make sense in some applications.
@@ -64,7 +64,7 @@ This list is in no way exhaustive.
 
 ### Combination of processing and power
 
-Many microcontrollers, by their nature, have power requirements that go hand in hand with their application/versatility. As such it may make sense to combine the two at the physical/`Component` level. 
+Many microcontrollers, by their nature, have power requirements that go hand in hand with their application/versatility. As such it may make sense to combine the two at the physical/`Component` level.
 
 ### LGA for all vs. computation+power vs. base boards
 

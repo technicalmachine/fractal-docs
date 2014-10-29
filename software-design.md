@@ -23,7 +23,7 @@ The **Interface Compiler** compiles each of the Components and generates binding
 
 A Component's interface is defined by **actions**, which combine object-oriented methods and events with a state machine. Data is passed into the component when an action begins, and passed out of the Component when the action ends. Unlike methods in OOP, the beginning and end are explicit, separate occurrences, and the time between between entry and exit represents a **state** of the state machine.
 
-Actions are nested hierarchically, somewhat like somewhat like [Harel / UML Statecharts](http://www.wisdom.weizmann.ac.il/~harel/SCANNED.PAPERS/Statecharts.pdf). For example, SPI bytes can only occur within a transaction, and transactions can only occur within an instance of the SPI component (whose existence behaves like an action, because it can have a start and an end, and has actions within it).
+Actions are nested hierarchically, somewhat like [Harel / UML Statecharts](http://www.wisdom.weizmann.ac.il/~harel/SCANNED.PAPERS/Statecharts.pdf). For example, SPI bytes can only occur within a transaction, and transactions can only occur within an instance of the SPI component (whose existence behaves like an action, because it can have a start and an end, and has actions within it).
 
 The timing of an action's beginning and end can be determined either by the component defining it ("component") or the component using it ("user"):
 
@@ -80,7 +80,7 @@ This file will let us define the same interface for all SPI peripherals (a `tran
 
 ### Rust
 
-  - optional stack switching or eventually [coroutines from generators](https://github.com/rust-lang/rust/issues/7746).
+  - optional stack switching or eventually [coroutines from generators](https://github.com/rust-lang/rfcs/issues/388).
   - state struct
 
 ### JS
