@@ -22,7 +22,7 @@ In a typical workflow, the user would specify the high-level domain logic of the
 
 ##  Implementation
 
-Much of this is still up in the air, but we've learned a lot from our work on [Tessel](www.tessel.io).
+Much of this is still up in the air, but we've learned a lot from our work on [Tessel](//tessel.io).
 
 ### Design files
 
