@@ -1,6 +1,6 @@
 # Fractal
 
-**Note**: Fractal is still under development and, while our goals and problem areas are well established, our methodology has room to change. Feedback is very welcome! We prefer you create [Github issues on this repo](github.com/technicalmachine/fractal-docs/issues) or, if you'd like to keep your questions/concerns private, email us at team@technical.io.
+**Note**: Fractal is still under development and, while our goals and problem areas are well established, our methodology has room to change. Feedback is very welcome! We prefer you create [Github issues on this repo](//github.com/technicalmachine/fractal-docs/issues) or, if you'd like to keep your questions/concerns private, email us at team@technical.io.
 
 ###Outline:
 * [**Fractal Description and Goals**](README.md)
