@@ -12,6 +12,12 @@ These languages can be mixed and matched to use the best tool for each part of t
 
 The **Interface Compiler** compiles each of the Components and generates binding glue code to connect them. It then adds lightweight runtime support code and links an executable for whichever target (Cortex M3, Cortex M0, Embedded Linux, etc.) is being used.
 
+Here's an example of how the components may be stacked on a Tessel prototype. Each box is a component, and the color reflects the language in which it's implemented.
+<img src='img/tessel-stack.png'>
+
+Then, you might incrementally port to your own hardware with a Cortex M0:
+<img src='img/m0-stack.png'>
+
 ## Design goals
 
  * Do whatever you can at compile time (error checking, resource allocation, and optimization)

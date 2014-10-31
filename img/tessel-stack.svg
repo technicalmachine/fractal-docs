@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="760"
+   height="610"
+   id="svg4016"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="tessel-stack.svg"
+   inkscape:export-filename="/home/km/tm/fractal/fractal-docs/img/tessel-stack.png"
+   inkscape:export-xdpi="106.58"
+   inkscape:export-ydpi="106.58">
+  <defs
+     id="defs4018" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="264.29447"
+     inkscape:cy="424.90373"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:object-paths="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="false"
+     inkscape:bbox-nodes="false"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="false"
+     inkscape:snap-intersection-paths="true"
+     inkscape:connector-spacing="9"
+     inkscape:window-width="1920"
+     inkscape:window-height="1010"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4610"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       spacingx="10px"
+       spacingy="10px"
+       originx="10px"
+       originy="-50px" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata4021">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(10,-392.36218)">
+    <rect
+       y="654.36218"
+       x="12.500001"
+       height="325.5"
+       width="715.00006"
+       id="rect4551"
+       style="fill:none;stroke:#666666;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none" />
+    <flowRoot
+       transform="matrix(2.6682528,0,0,2.5753467,1926.9498,-1203.6931)"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot4553"
+       xml:space="preserve"><flowRegion
+         id="flowRegion4555"><rect
+           y="830.93359"
+           x="-707.14288"
+           height="97.14286"
+           width="204.28572"
+           id="rect4557" /></flowRegion><flowPara
+         id="flowPara4559">Tessel</flowPara></flowRoot>    <flowRoot
+       transform="matrix(1.0201592,0,0,1,-13.499873,0)"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot4575"
+       xml:space="preserve"><flowRegion
+         id="flowRegion4577"><rect
+           y="841.64789"
+           x="-83.571426"
+           height="43.57143"
+           width="111.42857"
+           id="rect4579" /></flowRegion><flowPara
+         id="flowPara4581"></flowPara></flowRoot>    <g
+       transform="matrix(1.1650743,0,0,0.66291975,16.65991,238.06841)"
+       id="g4598"
+       style="stroke:#668000;stroke-opacity:1">
+      <rect
+         y="809.45905"
+         x="5.397397"
+         height="220.7095"
+         width="596.53363"
+         id="rect4600"
+         style="fill:none;stroke:#668000;stroke-width:5.68935108;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <flowRoot
+       transform="matrix(2.6677416,0,0,2.5753467,1923.8919,-1253.6244)"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot4553-6"
+       xml:space="preserve"><flowRegion
+         id="flowRegion4555-6"><rect
+           y="830.93359"
+           x="-707.14288"
+           height="97.14286"
+           width="204.28572"
+           id="rect4557-9" /></flowRegion><flowPara
+         id="flowPara4559-4">LPC1800</flowPara></flowRoot>    <g
+       id="g4695"
+       transform="matrix(0.25978425,0,0,0.24951134,21.127799,462.89297)"
+       style="stroke:#666666;stroke-width:1"
+       inkscape:export-filename="/home/km/tm/fractal/fractal-docs/img/path5663.png"
+       inkscape:export-xdpi="140.625"
+       inkscape:export-ydpi="140.625">
+      <rect
+         style="fill:none;stroke:#666666;stroke-width:19.63895988;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect4697"
+         width="596.53363"
+         height="220.7095"
+         x="5.397397"
+         y="809.45905" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4699"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="matrix(2.6677416,0,0,2.5753467,1945.4865,-1463.2597)"
+       inkscape:export-filename="/home/km/tm/fractal/fractal-docs/img/path5663.png"
+       inkscape:export-xdpi="140.625"
+       inkscape:export-ydpi="140.625"><flowRegion
+         id="flowRegion4701"><rect
+           id="rect4703"
+           width="204.28572"
+           height="97.14286"
+           x="-707.14288"
+           y="830.93359" /></flowRegion><flowPara
+         id="flowPara4705">Port A</flowPara></flowRoot>    <g
+       transform="matrix(0.25978425,0,0,0.24951134,191.1278,462.89297)"
+       id="g4707"
+       style="stroke:#666666;stroke-width:1"
+       inkscape:export-filename="/home/km/tm/fractal/fractal-docs/img/path5663.png"
+       inkscape:export-xdpi="140.625"
+       inkscape:export-ydpi="140.625">
+      <rect
+         y="809.45905"
+         x="5.397397"
+         height="220.7095"
+         width="596.53363"
+         id="rect4709"
+         style="fill:none;stroke:#666666;stroke-width:19.63895988;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none" />
+    </g>
+    <flowRoot
+       transform="matrix(2.6677416,0,0,2.5753467,2116.2941,-1463.2597)"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot4711"
+       xml:space="preserve"
+       inkscape:export-filename="/home/km/tm/fractal/fractal-docs/img/path5663.png"
+       inkscape:export-xdpi="140.625"
+       inkscape:export-ydpi="140.625"><flowRegion
+         id="flowRegion4713"><rect
+           y="830.93359"
+           x="-707.14288"
+           height="97.14286"
+           width="204.28572"
+           id="rect4715" /></flowRegion><flowPara
+         id="flowPara4717">Port B</flowPara></flowRoot>    <g
+       transform="matrix(1.1902999,0,0,0.24912731,6.9027077,213.21848)"
+       id="g4735"
+       style="stroke:#ffcc00">
+      <rect
+         y="809.45905"
+         x="5.397397"
+         height="220.7095"
+         width="596.53363"
+         id="rect4737"
+         style="fill:none;stroke:#ffcc00;stroke-width:9.18187046;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4805-9"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.36000001;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="matrix(2.6677416,0,0,2.5753467,1927.8379,-1343.7067)"
+       inkscape:export-filename="/home/km/tm/fractal/fractal-docs/img/path5663.png"
+       inkscape:export-xdpi="140.625"
+       inkscape:export-ydpi="140.625"><flowRegion
+         id="flowRegion4807-82"><rect
+           id="rect4809-7"
+           width="204.28572"
+           height="97.14286"
+           x="-707.14288"
+           y="830.93359" /></flowRegion><flowPara
+         id="flowPara4811-3">UART0</flowPara></flowRoot>    <g
+       inkscape:connector-avoid="true"
+       id="g4912"
+       transform="matrix(0.17524668,0,0,0.24929133,332.01359,583.07106)"
+       style="opacity:0.36000001"
+       inkscape:export-filename="/home/km/tm/fractal/fractal-docs/img/path5663.png"
+       inkscape:export-xdpi="140.625"
+       inkscape:export-ydpi="140.625">
+      <rect
+         style="fill:none;stroke:#800000;stroke-width:23.92167091;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect4914"
+         width="596.53363"
+         height="220.7095"
+         x="5.397397"
+         y="809.45905" />
+    </g>
+    <flowRoot
+       transform="matrix(2.6677416,0,0,2.5753467,2227.9725,-1343.6139)"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.36000001;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot4916"
+       xml:space="preserve"
+       inkscape:export-filename="/home/km/tm/fractal/fractal-docs/img/path5663.png"
+       inkscape:export-xdpi="140.625"
+       inkscape:export-ydpi="140.625"><flowRegion
+         id="flowRegion4918"><rect
+           y="830.93359"
+           x="-707.14288"
+           height="97.14286"
+           width="204.28572"
+           id="rect4920" /></flowRegion><flowPara
+         id="flowPara4922">UART1</flowPara></flowRoot>    <g
+       id="g4926"
+       transform="matrix(0.27739507,0,0,0.70218934,10.667776,-83.49933)"
+       style="stroke:#666666">
+      <rect
+         style="fill:none;stroke:#666666;stroke-width:11.32905102;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect4928"
+         width="596.53363"
+         height="220.7095"
+         x="5.397397"
+         y="809.45905" />
+    </g>
+    <g
+       transform="matrix(0.24296648,0,0,0.24920425,21.219777,293.14067)"
+       id="g4944"
+       inkscape:connector-avoid="true"
+       style="stroke:#006680;stroke-width:1">
+      <rect
+         y="809.45905"
+         x="5.397397"
+         height="220.7095"
+         width="596.53363"
+         id="rect4946"
+         style="fill:none;stroke:#006680;stroke-width:20.31978416;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none" />
+    </g>
+    <flowRoot
+       transform="matrix(2.6677416,0,0,2.5753467,1708.9967,-1633.8851)"
+       style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot4930-9"
+       xml:space="preserve"><flowRegion
+         id="flowRegion4932-4"><rect
+           y="830.93359"
+           x="-707.14288"
+           height="97.14286"
+           width="204.28572"
+           id="rect4934-3"
+           style="text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara4938-7">SI7020</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4984"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="matrix(7.1932673,0,0,7.1932673,1697.8923,-4849.2123)"
+       inkscape:export-filename="/home/km/tm/fractal/fractal-docs/img/path5663.png"
+       inkscape:export-xdpi="140.625"
+       inkscape:export-ydpi="140.625"><flowRegion
+         id="flowRegion4986"><rect
+           id="rect4988"
+           width="102.85714"
+           height="60.714287"
+           x="-184.28572"
+           y="761.64789" /></flowRegion><flowPara
+         id="flowPara4990">...</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4994"
+       style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="matrix(2.6677416,0,0,2.5753467,1983.8684,-1716.1478)"><flowRegion
+         id="flowRegion4996"><rect
+           style="text-align:center;text-anchor:middle"
+           id="rect4998"
+           width="204.28572"
+           height="97.14286"
+           x="-707.14288"
+           y="830.93359" /></flowRegion><flowPara
+         id="flowPara5000">JS Domain Logic</flowPara></flowRoot>    <flowRoot
+       transform="matrix(2.6677416,0,0,2.5753467,1708.8473,-1573.6931)"
+       style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot4930"
+       xml:space="preserve"><flowRegion
+         id="flowRegion4932"><rect
+           y="830.93359"
+           x="-707.14288"
+           height="97.14286"
+           width="204.28572"
+           id="rect4934"
+           style="text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara4936">Tessel</flowPara><flowPara
+         id="flowPara4938">Climate</flowPara></flowRoot>    <g
+       transform="matrix(0.26034952,0,0,0.70218934,190.94117,-83.51119)"
+       id="g5002"
+       style="stroke:#666666;stroke-width:1">
+      <rect
+         y="809.45905"
+         x="5.397397"
+         height="220.7095"
+         width="596.53363"
+         id="rect5004"
+         style="fill:none;stroke:#666666;stroke-width:11.69403839;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none" />
+    </g>
+    <g
+       transform="matrix(0.17524668,0,0,0.24929133,602.46234,653.48917)"
+       id="g5006"
+       inkscape:connector-avoid="true">
+      <rect
+         y="809.45905"
+         x="5.397397"
+         height="220.7095"
+         width="596.53363"
+         id="rect5008"
+         style="fill:none;stroke:#800000;stroke-width:23.92167091;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5010"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="matrix(2.6677416,0,0,2.5753467,2514.5864,-1273.4565)"><flowRegion
+         id="flowRegion5012"><rect
+           id="rect5014"
+           width="204.28572"
+           height="97.14286"
+           x="-707.14288"
+           y="830.93359" /></flowRegion><flowPara
+         id="flowPara5016">USB</flowPara></flowRoot>    <flowRoot
+       transform="matrix(2.6677416,0,0,2.5753467,2383.6409,-1273.2092)"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot5018"
+       xml:space="preserve"><flowRegion
+         id="flowRegion5020"><rect
+           y="830.93359"
+           x="-707.14288"
+           height="97.14286"
+           width="204.28572"
+           id="rect5022" /></flowRegion><flowPara
+         id="flowPara5024">Timer</flowPara></flowRoot>    <g
+       inkscape:connector-avoid="true"
+       id="g5026"
+       transform="matrix(0.17524668,0,0,0.24929133,482.00287,653.51013)"
+       style="stroke:#668000;stroke-opacity:1">
+      <rect
+         style="fill:none;stroke:#668000;stroke-width:23.92167091;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="rect5028"
+         width="596.53363"
+         height="220.7095"
+         x="5.397397"
+         y="809.45905" />
+    </g>
+    <g
+       transform="matrix(0.22410381,0,0,0.24929133,452.41974,583.07106)"
+       id="g5030"
+       inkscape:connector-avoid="true"
+       style="stroke:#668000;stroke-width:0.9633112;stroke-opacity:1">
+      <rect
+         y="809.45905"
+         x="5.397397"
+         height="220.7095"
+         width="596.53363"
+         id="rect5032"
+         style="fill:none;stroke:#668000;stroke-width:21.1539669;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5034"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="matrix(2.6677416,0,0,2.5753467,2374.1565,-1343.8746)"><flowRegion
+         id="flowRegion5036"><rect
+           id="rect5038"
+           width="204.28572"
+           height="97.14286"
+           x="-707.14288"
+           y="830.93359" /></flowRegion><flowPara
+         id="flowPara5040">GPIO</flowPara></flowRoot>    <g
+       inkscape:connector-avoid="true"
+       id="g5068"
+       transform="matrix(0.17524668,0,0,0.24929133,602.46234,583.48917)"
+       style="stroke:#668000;stroke-opacity:1">
+      <rect
+         style="fill:none;stroke:#668000;stroke-width:23.92167091;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="rect5070"
+         width="596.53363"
+         height="220.7095"
+         x="5.397397"
+         y="809.45905" />
+    </g>
+    <flowRoot
+       transform="matrix(2.6677416,0,0,2.5753467,2513.2577,-1343.4565)"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot5084"
+       xml:space="preserve"><flowRegion
+         id="flowRegion5086"><rect
+           y="830.93359"
+           x="-707.14288"
+           height="97.14286"
+           width="204.28572"
+           id="rect5088" /></flowRegion><flowPara
+         id="flowPara5090">SPI0</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5072"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="matrix(2.6677416,0,0,2.5753467,2488.5611,-1463.8746)"><flowRegion
+         id="flowRegion5074"><rect
+           id="rect5076"
+           width="204.28572"
+           height="97.14286"
+           x="-707.14288"
+           y="830.93359" /></flowRegion><flowPara
+         id="flowPara5078">CC3000</flowPara></flowRoot>    <g
+       transform="matrix(0.20797843,0,0,0.24929133,591.37746,463.07106)"
+       id="g5080"
+       inkscape:connector-avoid="true"
+       style="stroke:#668000;stroke-width:1">
+      <rect
+         y="809.45905"
+         x="5.397397"
+         height="220.7095"
+         width="596.53363"
+         id="rect5082"
+         style="fill:none;stroke:#668000;stroke-width:21.9587326;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none" />
+    </g>
+    <rect
+       y="785.34479"
+       x="152.95947"
+       height="54.460732"
+       width="75.250191"
+       id="rect4785"
+       style="fill:#ffffff;fill-opacity:1;stroke:#800000;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       inkscape:export-filename="/home/km/tm/fractal/fractal-docs/img/path5663.png"
+       inkscape:export-xdpi="140.625"
+       inkscape:export-ydpi="140.625" />
+    <rect
+       style="opacity:0.90804599;fill:#ffffff;fill-opacity:1;stroke:#668000;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4803"
+       width="75.070831"
+       height="54.664394"
+       x="242.89073"
+       y="784.87268"
+       inkscape:export-filename="/home/km/tm/fractal/fractal-docs/img/path5663.png"
+       inkscape:export-xdpi="140.625"
+       inkscape:export-ydpi="140.625" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4805"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="matrix(2.6677416,0,0,2.5753467,2046.4315,-1343.6721)"
+       inkscape:export-filename="/home/km/tm/fractal/fractal-docs/img/path5663.png"
+       inkscape:export-xdpi="140.625"
+       inkscape:export-ydpi="140.625"><flowRegion
+         id="flowRegion4807"><rect
+           id="rect4809"
+           width="204.28572"
+           height="97.14286"
+           x="-707.14288"
+           y="830.93359" /></flowRegion><flowPara
+         id="flowPara4811">I2C0</flowPara></flowRoot>    <flowRoot
+       transform="matrix(2.6677416,0,0,2.5753467,2138.3508,-1344.0424)"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.36000001;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot4787"
+       xml:space="preserve"
+       inkscape:export-filename="/home/km/tm/fractal/fractal-docs/img/path5663.png"
+       inkscape:export-xdpi="140.625"
+       inkscape:export-ydpi="140.625"><flowRegion
+         id="flowRegion4789"><rect
+           y="830.93359"
+           x="-707.14288"
+           height="97.14286"
+           width="204.28572"
+           id="rect4791" /></flowRegion><flowPara
+         id="flowPara4793">SPI1</flowPara></flowRoot>    <rect
+       style="opacity:0.36000001;fill:none;stroke:#800000;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect4803-7"
+       width="104.54053"
+       height="55.328918"
+       x="33.170063"
+       y="784.8761"
+       inkscape:export-filename="/home/km/tm/fractal/fractal-docs/img/path5663.png"
+       inkscape:export-xdpi="140.625"
+       inkscape:export-ydpi="140.625" />
+    <flowRoot
+       transform="matrix(2.6677416,0,0,2.5753467,1885.2667,-1570.8085)"
+       style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot5209"
+       xml:space="preserve"><flowRegion
+         id="flowRegion5211"><rect
+           y="830.93359"
+           x="-707.14288"
+           height="97.14286"
+           width="204.28572"
+           id="rect5213"
+           style="text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara5215">Tessel</flowPara><flowPara
+         id="flowPara5217">Relay</flowPara></flowRoot>    <g
+       inkscape:connector-avoid="true"
+       id="g5262"
+       transform="matrix(0.20797843,0,0,0.24929133,592.31133,293.07106)">
+      <rect
+         style="fill:none;stroke:#800000;stroke-width:21.9587326;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect5264"
+         width="596.53363"
+         height="220.7095"
+         x="5.397397"
+         y="809.45905" />
+    </g>
+    <flowRoot
+       transform="matrix(2.6677416,0,0,2.5753467,2502.5471,-1635.3522)"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot5268"
+       xml:space="preserve"><flowRegion
+         id="flowRegion5270"><rect
+           y="830.93359"
+           x="-707.14288"
+           height="97.14286"
+           width="204.28572"
+           id="rect5272" /></flowRegion><flowPara
+         id="flowPara5274">MQTT</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 660,492.36218 0,-20"
+       id="path5282"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 270,482.36218 0.25,-12.50058"
+       id="path5284"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 100,492.36218 0.5,-22.50058"
+       id="path5288"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 110,782.36218 0,-40 0,-20"
+       id="path5645"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/km/tm/fractal/fractal-docs/img/path5663.png"
+       inkscape:export-xdpi="140.625"
+       inkscape:export-ydpi="140.625" />
+    <path
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       id="path5677"
+       d="m 190,762.36218 -140,0 0,-40"
+       style="fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/km/tm/fractal/fractal-docs/img/path5663.png"
+       inkscape:export-xdpi="140.625"
+       inkscape:export-ydpi="140.625" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 190,782.36218 0,-20 -140,0 0,-40"
+       id="path5647"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/km/tm/fractal/fractal-docs/img/path5663.png"
+       inkscape:export-xdpi="140.625"
+       inkscape:export-ydpi="140.625" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 190,762.36218 30,0 0,-40"
+       id="path5649"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/km/tm/fractal/fractal-docs/img/path5663.png"
+       inkscape:export-xdpi="140.625"
+       inkscape:export-ydpi="140.625" />
+    <path
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       id="path5675"
+       d="m 280,752.36218 -200,0 0,-30"
+       style="fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/km/tm/fractal/fractal-docs/img/path5663.png"
+       inkscape:export-xdpi="140.625"
+       inkscape:export-ydpi="140.625" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 280,782.36218 0,-30 -200,0 0,-30"
+       id="path5651"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/km/tm/fractal/fractal-docs/img/path5663.png"
+       inkscape:export-xdpi="140.625"
+       inkscape:export-ydpi="140.625" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 250,752.36218 0,-30"
+       id="path5653"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/km/tm/fractal/fractal-docs/img/path5663.png"
+       inkscape:export-xdpi="140.625"
+       inkscape:export-ydpi="140.625" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 380,782.36218 0,0 0,-40 -90,0 0,-20"
+       id="path5659"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/km/tm/fractal/fractal-docs/img/path5663.png"
+       inkscape:export-xdpi="140.625"
+       inkscape:export-ydpi="140.625" />
+    <path
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       id="path5673"
+       d="m 520,732.36218 -380,0 0,-10"
+       style="fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 510,782.36218 0,-10 0,-40 -370,0 0,-10"
+       id="path5661"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 330,732.36218 0,-10"
+       id="path5663"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="140.625"
+       inkscape:export-ydpi="140.625" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 50,662.36218 0,-20"
+       id="path5679"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="opacity:0.5;fill:#000000;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1, 2;stroke-dashoffset:0"
+       d="m 50,662.36218 0.125,57.56952"
+       id="path5681"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5683"
+       d="m 330,662.36218 0,60"
+       style="opacity:0.5;fill:#000000;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1, 2;stroke-dashoffset:0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 340,270 0,-20"
+       id="path6668"
+       inkscape:connector-curvature="0"
+       transform="translate(-10,392.36218)"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 670,390 0,-60"
+       id="path6674"
+       inkscape:connector-curvature="0"
+       transform="translate(-10,392.36218)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 670,270 0,-110"
+       id="path6680"
+       inkscape:connector-curvature="0"
+       transform="translate(-10,392.36218)" />
+  </g>
+</svg>
