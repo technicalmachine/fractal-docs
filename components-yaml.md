@@ -1,6 +1,6 @@
 ### Component definition YAML
 
-Components are defined in [.yaml](https://en.wikipedia.org/wiki/YAML) files. It's probably useful to look at [an example](lib/example/spi.yaml) when reading this section.
+Components are defined in [.yaml](https://en.wikipedia.org/wiki/YAML) files. It's probably useful to look at [an example](lib/examples/spi.yaml) when reading this section.
 
 The top level mapping specifies the implementation language and language-specific options:
 
