@@ -19,7 +19,7 @@ As you move toward production, optimize your design with transparency into micro
 
 <img src='img/steps.png'>
 
-**Fractal** will enable engineers to follow a smooth transition from the prototyping phase of an an embedded device to the manufacturing phase. The objectives of those two phases are generally quite different and can be optimized by using different tools.
+**Fractal** will enable engineers to follow a smooth transition from the prototyping phase of an embedded device to the manufacturing phase. The objectives of those two phases are generally quite different and can be optimized by using different tools.
 
 In the prototyping phase, the priority is *time* : to prove if and how a device *should* be made as quickly as possible so that time and money aren't spent building something people don't want. We've found that using high level languages and flexible hardware platforms (Tessel, Arduino, RasPi, etc.) offer the fastest path to completing this phase.
 
